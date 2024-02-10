@@ -8,7 +8,7 @@
 
 .header {
     height: 10rem;
-    background-color: #FEFFF0;
+    background-color: var(--primary-color);
 
     display: flex;
     justify-content: center;
@@ -16,6 +16,11 @@
 
     border-bottom: 4px solid black;
 }
+
+:root {
+    --primary-color: #FEFFF0;
+}
+
 
 .navigation {
     background-color: #fff;
@@ -55,7 +60,7 @@
 }
 
 .mainPart {
-    background-color: #FEFFF0;
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -164,7 +169,7 @@
 }
 
 .services {
-    background-color: #FEFFF0;
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     padding: 40px;
@@ -172,14 +177,14 @@
 
 .service-text p {
     font-family: "Space Grotesk";
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 700;
 
     margin-right: 30px;
 }
 
 .myPort {
-    background-color: #FEFFF0;
+    background-color: var(--primary-color);
 }
 
 .heading {
@@ -301,21 +306,95 @@
 }
 
 
-.clients {
+.clientStart {
     display: flex;
     align-items: center;
+
+    background-color: var(--primary-color);
+
+    padding: 50px 4rem;
 }
 
-.clients h2 {
+.clientStart h2 {
     color: #000;
     font-family: "Space Grotesk";
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    width: 50%;
 }
 
-.clients svg {
+.clientStart svg {
     width: 67px;
     height: 67px;
+
+    margin-left: -20px;
+}
+
+.clients {
+    background-color: var(--primary-color);
+    padding: 50px;
+}
+
+.clientsItem {
+    width: 40%;
+    padding: 20px 40px;
+
+    border-radius: 2px;
+    border: 4px solid #000;
+    background: #fff;
+    box-shadow: 11.465px 11.465px 0px 0px #BFBFB4;
+
+    list-style: none;
+}
+
+.clientComment {
+    margin-bottom: 25px;
+}
+
+.clientComment p {
+    color: var(--Dark-Gray, #181818);
+    font-family: Inter;
+    font-size: 27.993px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40.717px;
+}
+
+.clientLogo {
+    width: 5rem;
+    margin-right: 10px;
+}
+
+.clientLogo img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+
+    border-radius: 100%;
+}
+
+.clientInfo {
+    display: flex;
+    align-items: center;
+}
+
+.clientName h3 {
+    color: var(--Dark-Gray, #2B2B2B);
+    font-family: Inter;
+    font-size: 27.993px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35.627px;
+}
+
+.clientName p {
+    color: #545454;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35.627px;
 }
