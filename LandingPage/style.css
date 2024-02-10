@@ -6,9 +6,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--primary-color);
+}
+
 .header {
     height: 10rem;
-    background-color: var(--primary-color);
 
     display: flex;
     justify-content: center;
@@ -19,6 +22,7 @@
 
 :root {
     --primary-color: #FEFFF0;
+    --primary-shadow: 21px 21px 0px 0px rgba(0, 0, 0, 0.40);
 }
 
 
@@ -60,7 +64,6 @@
 }
 
 .mainPart {
-    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -335,7 +338,9 @@
 
 .clients {
     background-color: var(--primary-color);
-    padding: 50px;
+    padding: 20px;
+
+    margin-bottom: 3rem;
 }
 
 .clientsItem {
@@ -348,6 +353,15 @@
     box-shadow: 11.465px 11.465px 0px 0px #BFBFB4;
 
     list-style: none;
+    margin-bottom: 30px;
+
+    transform: rotate(1deg);
+}
+
+.clientsList {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .clientComment {
@@ -364,7 +378,7 @@
 }
 
 .clientLogo {
-    width: 5rem;
+    width: 4.5rem;
     margin-right: 10px;
 }
 
@@ -397,4 +411,120 @@
     font-style: normal;
     font-weight: 500;
     line-height: 35.627px;
+}
+
+.send {
+    background-color: var(--primary-color);
+    min-height: 400px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.send-in {
+    background-color: white;
+    width: 70%;
+    border: 6px solid #000;
+    box-shadow: var(--primary-shadow);
+
+    padding: 50px;
+    position: absolute;
+}
+
+.send svg {
+    position: relative;
+    top: -90px;
+    left: 80%;
+    height: 100px;
+}
+
+.sendInfo {
+    text-align: center;
+}
+
+.sendInfo h2 {
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-top: -5rem;
+    margin-bottom: .8rem;
+}
+
+.sendInfo p {
+    color: #000;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sendInfo button {
+    border-radius: 92px;
+    border: 6px solid #000;
+    background: #BAE6FF;
+
+    padding: 15px 30px;
+
+    color: #000;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-top: 2rem;
+}
+
+.footer {
+    margin-top: 5rem;
+    border-top: 5px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 3.5rem 2rem;
+}
+
+.fooLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fooLogo p {
+    color: #0C0C0C;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #0C0C0C;
+    font-family: "Space Grotesk";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footText p {
+    color: #000;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footCred {
+    display: flex;
+    align-items: center;
+}
+
+.footCred a svg {
+    height: 48px;
 }
