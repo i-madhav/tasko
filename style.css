@@ -528,3 +528,95 @@ body {
 .footCred a svg {
     height: 48px;
 }
+
+/*-------------------------*/
+/*RESPONSIVENESS*/
+
+@media only screen and (max-width: 1483px) {
+    .myText-svg2 img{
+     margin-left: -14rem !important;
+     margin-top: 2rem;
+    }
+   }
+ 
+ @media only screen and (max-width: 1450px) {
+    .myText-svg2 img{
+     margin-left: -12rem !important;
+     margin-top: 2rem;
+    }
+   }
+ 
+ @media only screen and (max-width: 1370px) {
+    .myText-svg2 img{
+     margin-left: -11rem !important;
+     margin-top: 2rem;
+    }
+
+      .sendInfo h2{
+         font-size:35px;
+     } 
+
+     .sendInfo p{
+         font-size:25px;
+     }
+
+   }
+ 
+ @media only screen and (max-width: 1270px) {
+    .myText-svg2 img{
+     margin-left: -9rem !important;
+     margin-top: 2rem;
+    }
+   }
+ 
+ @media only screen and (max-width:1500px){
+     .skills{
+         margin-top:2rem;
+     }
+ 
+     .mainPart {
+         border:none;
+     }
+ }
+ 
+ @media only screen and (max-width:1000px){
+     .service-text p {
+         font-size:40px;
+     }
+ 
+     .heading h2{
+         font-size:65px;
+     }
+ 
+     .heading svg{
+         height:130px;
+     }
+ 
+     .clientStart svg{
+         margin-left:10%;
+     }
+ 
+     .clientsList{
+         display:flex;
+         flex-wrap:nowrap;
+         flex-direction:column;
+         align-items:center;
+     }
+ 
+     .clientsItem{
+         width:60%;
+     }
+ 
+     .send{
+         min-height:400px;
+     }
+
+     .sendInfo h2{
+         font-size:30px;
+     } 
+
+     .sendInfo p{
+         font-size:20px;
+     }
+ }
+ 
