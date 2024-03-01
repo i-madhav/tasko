@@ -85,11 +85,11 @@ body {
     line-height: normal;
 }
 
-.myText-btn{
+.myText-btn {
     margin-top: 4rem;
 }
 
-.myText-btn a{
+.myText-btn a {
     border-radius: 92px;
     border: 5px solid #000;
     background: #BAE6FF;
@@ -103,7 +103,7 @@ body {
 }
 
 
-.myText-btn a:active{
+.myText-btn a:active {
     text-decoration: none;
     color: black;
 }
@@ -478,7 +478,7 @@ body {
 
 }
 
-.sendInfo p:last-of-type{
+.sendInfo p:last-of-type {
     margin-bottom: 5rem;
 }
 
@@ -496,10 +496,10 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;   
+    line-height: normal;
 }
 
-.sendInfo a:active{
+.sendInfo a:active {
     text-decoration: none;
     color: black;
 }
@@ -521,7 +521,7 @@ body {
     gap: 10px;
 }
 
-.fooLogo p{
+.fooLogo p {
     color: #0C0C0C;
     font-family: "Space Grotesk";
     font-size: 36px;
@@ -551,97 +551,145 @@ body {
     height: 48px;
 }
 
-.footCred a:last-of-type{
+.footCred a:last-of-type {
     margin-left: -25px;
 }
+
 /*-------------------------*/
 /*RESPONSIVENESS*/
 
 @media only screen and (max-width: 1483px) {
-    .myText-svg2 img{
-     margin-left: -14rem !important;
-     margin-top: 2rem;
+    .myText-svg2 img {
+        margin-left: -14rem !important;
+        margin-top: 2rem;
     }
-   }
- 
- @media only screen and (max-width: 1450px) {
-    .myText-svg2 img{
-     margin-left: -12rem !important;
-     margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1450px) {
+    .myText-svg2 img {
+        margin-left: -12rem !important;
+        margin-top: 2rem;
     }
-   }
- 
- @media only screen and (max-width: 1370px) {
-    .myText-svg2 img{
-     margin-left: -11rem !important;
-     margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1370px) {
+    .myText-svg2 img {
+        margin-left: -11rem !important;
+        margin-top: 2rem;
     }
 
-      .sendInfo h2{
-         font-size:35px;
-     } 
-
-     .sendInfo p{
-         font-size:25px;
-     }
-
-   }
- 
- @media only screen and (max-width: 1270px) {
-    .myText-svg2 img{
-     margin-left: -9rem !important;
-     margin-top: 2rem;
+    .sendInfo h2 {
+        font-size: 35px;
     }
-   }
- 
- @media only screen and (max-width:1500px){
-     .skills{
-         margin-top:2rem;
-     }
- 
-     .mainPart {
-         border:none;
-     }
- }
- 
- @media only screen and (max-width:1000px){
-     .service-text p {
-         font-size:40px;
-     }
- 
-     .heading h2{
-         font-size:65px;
-     }
- 
-     .heading svg{
-         height:130px;
-     }
- 
-     .clientStart svg{
-         margin-left:10%;
-     }
- 
-     .clientsList{
-         display:flex;
-         flex-wrap:nowrap;
-         flex-direction:column;
-         align-items:center;
-     }
- 
-     .clientsItem{
-         width:60%;
-     }
- 
-     .send{
-         min-height:400px;
-     }
 
-     .sendInfo h2{
-         font-size:30px;
-     } 
+    .sendInfo p {
+        font-size: 25px;
+    }
 
-     .sendInfo p{
-         font-size:20px;
-     }
- }
- 
+}
+
+@media only screen and (max-width: 1270px) {
+    .myText-svg2 img {
+        margin-left: -9rem !important;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width:1500px) {
+    .skills {
+        margin-top: 2rem;
+    }
+
+    .mainPart {
+        border: none;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .service-text p {
+        font-size: 40px;
+    }
+
+    .heading h2 {
+        font-size: 65px;
+    }
+
+    .heading svg {
+        height: 130px;
+    }
+
+    .clientStart svg {
+        margin-left: 10%;
+    }
+
+    .clientsList {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clientsItem {
+        width: 60%;
+    }
+
+    .send {
+        min-height: 400px;
+    }
+
+    .sendInfo h2 {
+        font-size: 30px;
+    }
+
+    .sendInfo p {
+        font-size: 20px;
+    }
+
+    .mainPart {
+        display: block;
+        padding: 10%;
+    }
+
+    .myText-svg svg {
+        width: 10rem;
+    }
+
+    .myText-text {
+        color: #000;
+        -webkit-text-stroke-width: 1.5970873832702637;
+        -webkit-text-stroke-color: #000;
+        font-family: "Space Grotesk";
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .myText-btn {
+        color: #000;
+        font-family: "Space Grotesk";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+        border: 5px solid black;
+    }
+
+    .first {
+        margin-right: -2rem;
+        border: none;
+    }
+
+    .second svg {
+        background-color: transparent;
+    }
+
+    .header {
+        border: none;
+    }
+}
