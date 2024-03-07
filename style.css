@@ -234,7 +234,7 @@ body {
 
 }
 
-.portList{
+.portList {
     width: 31rem;
     padding: 30px;
     background-color: white;
@@ -643,7 +643,7 @@ body {
         font-size: 40px;
     }
 
-    .myText{
+    .myText {
         margin-bottom: 8rem;
     }
 
@@ -652,10 +652,10 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin:  0 auto;
+        margin: 0 auto;
     }
 
-    .recCon{
+    .recCon {
         width: 30rem;
     }
 
@@ -663,69 +663,167 @@ body {
         margin-bottom: -2rem;
     }
 
-    .service-text p{
-        font-size:35px;
+    .service-text p {
+        font-size: 35px;
     }
 
-    .heading h2{
-        font-size:55px;
+    .heading h2 {
+        font-size: 55px;
     }
 
-    .heading svg{
-        width:7rem;
-        margin-left:1rem;
+    .heading svg {
+        width: 7rem;
+        margin-left: 1rem;
     }
 
-    .portList{
-        width:60%;
+    .portList {
+        width: 60%;
     }
 
-    .portImg{
-        width:98%;
+    .portImg {
+        width: 98%;
     }
 
     .portName h3 {
         font-size: 32px;
     }
 
-    .clientStart{
+    .clientStart {
         padding: 2rem 2rem;
     }
 
-    .clientStart h2{
+    .clientStart h2 {
         width: 80%;
         font-size: 40px;
     }
 
-    .clients{
+    .clients {
         margin-top: 2rem;
     }
 
-    .clientsItem{
+    .clientsItem {
         width: 80%;
         padding: 2rem 3rem;
     }
-    
-    .send-in{
+
+    .send-in {
         width: 80%;
     }
 
-    .sendInfo h2{
+    .sendInfo h2 {
         font-size: 30px;
         font-weight: 700;
     }
 
-    .sendInfo p{
+    .sendInfo p {
         font-size: 24px;
     }
 
-    .sendInfo p:last-of-type{
+    .sendInfo p:last-of-type {
         margin-bottom: 3.5rem;
     }
 
-    .skills-list{
+    .skills-list {
         overflow: scroll;
-        justify-content: none !important;
+        justify-content: normal;
+    }
+
+    .footer {
+        display: block;
+        text-align: center;
+    }
+
+    .footer>*:not(:last-child) {
+        padding-bottom: 3rem;
+    }
+
+    .fooLogo {
+        justify-content: center;
+    }
+
+    .footCred {
+        justify-content: space-evenly;
+    }
+
+    .footCred a {
+        width: 8rem;
+    }
+
+    .footCred a:last-of-type {
+        margin-left: 0;
     }
 }
 
+@media only screen and (max-width:600px) {
+    .myText {
+        text-align: left;
+        padding-left: 2rem;
+    }
+
+    .myText-svg svg {
+        width: 7rem;
+    }
+
+    .myText-text p {
+        font-size: 55px;
+    }
+
+    .myText-btn a {
+        font-size: 31px;
+    }
+
+    .service-text p {
+        font-size: 28px;
+    }
+
+    .service-img svg {
+        width: 3.5rem;
+    }
+
+    .heading h2 {
+        font-size: 45px;
+    }
+
+    .heading svg {
+        width: 5rem;
+    }
+
+    .portList {
+        width: 90%;
+    }
+
+    .clientStart h2 {
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .clientStart svg {
+        width: 50px;
+        margin-left: 1rem;
+    }
+
+    .clientsItem {
+        width: 95%;
+        padding: 1.8rem 2.4rem;
+    }
+
+    .send-in {
+        width: 90%;
+    }
+
+    .sendInfo h2 {
+        font-size: 22px;
+    }
+
+    .sendInfo p {
+        font-size: 17px;
+    }
+
+    .sendInfo a {
+        font-size: 17px;
+    }
+
+    .send {
+        min-height: 295px;
+    }
+}
