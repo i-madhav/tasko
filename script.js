@@ -12,7 +12,7 @@ scrollToSection(".about", ".mainPart", "smooth");
 scrollToSection(".hire-me", ".send", "smooth");
 
 
-if (window.innerWidth < 1000) {
+if (window.innerWidth <= 1000) {
     document.querySelector(".nav-list").innerHTML = '<li class="nav-item first">' +
         '<div class="svg-container">' +
         '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="49" viewBox="0 0 50 49" fill="none">' +

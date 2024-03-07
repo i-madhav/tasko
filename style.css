@@ -74,7 +74,7 @@ body {
 }
 
 .myText-svg svg {
-    width: 110px;
+    width: 10rem;
 }
 
 .myText-text p {
@@ -108,40 +108,45 @@ body {
     color: black;
 }
 
+.myImg {
+    width: 20%;
+}
+
 .myText-svg2 img {
-    margin-top: 8rem;
     margin-left: -14rem;
 }
 
 .myImgText-svg {
-    margin-bottom: -2rem;
+    margin-top: -1rem;
+    margin-bottom: -3rem;
+    width: 0;
 }
 
 .recCon {
-    width: 30rem;
-    height: 30rem;
-    flex-shrink: 0;
+    width: 20rem;
     background-color: white;
-
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     border: 5px solid black;
     box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .rec2Con {
     background-color: white;
-    width: 20rem;
-    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    flex: 0 0 80%;
     border: 5px solid black;
+
+    margin: 4rem 10rem;
 }
 
 .rec2Con img {
     object-fit: cover;
     width: 100%;
-    height: 100%;
 }
 
 .my-Img-Text-Name p {
@@ -188,7 +193,7 @@ body {
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding: 30px;
 }
 
 .service-text p {
@@ -229,7 +234,7 @@ body {
 
 }
 
-.portList {
+.portList{
     width: 31rem;
     padding: 30px;
     background-color: white;
@@ -276,7 +281,7 @@ body {
 }
 
 .portImg {
-    width: 26.5rem;
+    width: 25.5rem;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -352,14 +357,12 @@ body {
 .clients {
     background-color: var(--primary-color);
     padding: 20px;
-
     margin-bottom: 3rem;
 }
 
 .clientsItem {
     width: 40%;
     padding: 20px 40px;
-
     border-radius: 2px;
     border: 4px solid #000;
     background: #fff;
@@ -606,90 +609,123 @@ body {
 }
 
 @media only screen and (max-width:1000px) {
-    .service-text p {
-        font-size: 40px;
-    }
-
-    .heading h2 {
-        font-size: 65px;
-    }
-
-    .heading svg {
-        height: 130px;
-    }
-
-    .clientStart svg {
-        margin-left: 10%;
-    }
-
-    .clientsList {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .clientsItem {
-        width: 60%;
-    }
-
-    .send {
-        min-height: 400px;
-    }
-
-    .sendInfo h2 {
-        font-size: 30px;
-    }
-
-    .sendInfo p {
-        font-size: 20px;
-    }
-
-    .mainPart {
-        display: block;
-        padding: 10%;
-    }
-
-    .myText-svg svg {
-        width: 10rem;
-    }
-
-    .myText-text {
-        color: #000;
-        -webkit-text-stroke-width: 1.5970873832702637;
-        -webkit-text-stroke-color: #000;
-        font-family: "Space Grotesk";
-        font-size: 42px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    .myText-btn {
-        color: #000;
-        font-family: "Space Grotesk";
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+    .header {
+        border: none;
     }
 
     .nav-list {
-        display: flex;
-        align-items: center;
         border: 5px solid black;
     }
 
     .first {
-        margin-right: -2rem;
         border: none;
     }
 
-    .second svg {
-        background-color: transparent;
+    .second {
+        display: flex;
+        align-items: center;
     }
 
-    .header {
-        border: none;
+    .mainPart {
+        display: block;
+        text-align: center;
+    }
+
+    .myText-svg2 {
+        display: none;
+    }
+
+    .myText-text p {
+        font-size: 76px;
+    }
+
+    .myText-btn a {
+        font-size: 40px;
+    }
+
+    .myText{
+        margin-bottom: 8rem;
+    }
+
+    .myImg {
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:  0 auto;
+    }
+
+    .recCon{
+        width: 30rem;
+    }
+
+    .my-Img-Text-Name {
+        margin-bottom: -2rem;
+    }
+
+    .service-text p{
+        font-size:35px;
+    }
+
+    .heading h2{
+        font-size:55px;
+    }
+
+    .heading svg{
+        width:7rem;
+        margin-left:1rem;
+    }
+
+    .portList{
+        width:60%;
+    }
+
+    .portImg{
+        width:98%;
+    }
+
+    .portName h3 {
+        font-size: 32px;
+    }
+
+    .clientStart{
+        padding: 2rem 2rem;
+    }
+
+    .clientStart h2{
+        width: 80%;
+        font-size: 40px;
+    }
+
+    .clients{
+        margin-top: 2rem;
+    }
+
+    .clientsItem{
+        width: 80%;
+        padding: 2rem 3rem;
+    }
+    
+    .send-in{
+        width: 80%;
+    }
+
+    .sendInfo h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .sendInfo p{
+        font-size: 24px;
+    }
+
+    .sendInfo p:last-of-type{
+        margin-bottom: 3.5rem;
+    }
+
+    .skills-list{
+        overflow: scroll;
+        justify-content: none !important;
     }
 }
+
