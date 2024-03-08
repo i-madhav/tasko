@@ -826,4 +826,12 @@ body {
     .send {
         min-height: 295px;
     }
+
+    .recCon{
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width:500px){
+    
 }
