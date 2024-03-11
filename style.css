@@ -8,6 +8,7 @@
 
 body {
     background-color: var(--primary-color);
+    width: 100%;
 }
 
 .header {
@@ -70,7 +71,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
 
-    border-bottom: 5px solid black;
+    margin-bottom: 2rem;
 }
 
 .myText-svg svg {
@@ -754,7 +755,7 @@ body {
     }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
     .myText {
         text-align: left;
         padding-left: 2rem;
@@ -827,31 +828,96 @@ body {
         min-height: 295px;
     }
 
-    .recCon{
+    .recCon {
         width: 25rem;
     }
 }
 
-@media only screen and (max-width:500px){
-    .header{
+@media only screen and (max-width: 500px) {
+    body {
+        width: 105vw;
+    }
+
+    .header {
         width: 100%;
     }
 
-    .svg-container svg{
+    .svg-container svg {
         width: 1.5rem;
     }
 
-    .first{
+    .first {
         font-size: 25px;
     }
 
-    .skills{
+    .skills {
         width: 101vw;
         height: auto;
     }
 
-    .skills-item{
+    .skills-item {
         font-size: 20px;
         padding: 15px;
+    }
+
+    .heading h2 {
+        font-size: 40px;
+    }
+
+    .heading svg {
+        width: 4rem;
+    }
+
+    .portItem {
+        padding-top: 0;
+    }
+
+    .portList {
+        width: 100%;
+    }
+
+    .portInfo p {
+        font-size: 22px;
+    }
+
+    .clientStart h2 {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .clients {
+        padding: 10px;
+    }
+
+    .clientsItem {
+        width: 98%;
+    }
+
+    .clientComment p {
+        font-size: 25px;
+    }
+
+    .clientLogo {
+        width: 4rem;
+    }
+
+    .clientName h3 {
+        font-size: 25px;
+    }
+
+    .clientName p {
+        font-size: 18px;
+    }
+
+    .sendInfo h2 {
+        font-size: 20px;
+    }
+
+    .sendInfo p {
+        font-size: 15px;
+    }
+
+    .sendInfo a {
+        font-size: 15px;
     }
 }
